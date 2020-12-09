@@ -4,12 +4,12 @@
 Provisions AWS infrastructure with Terraform and configures Web Servers (NGINX) + Postgres with Ansible
 
 Stack:
-● AWS infrastructure
-    ○ Load Balancer
-    ○ 3 Web Servers
-        ■ Docker app:
-            ● nginx
-    ○ Postgres Server
+- AWS infrastructure
+    - Load Balancer
+    - 3 Web Servers
+        - Docker app:
+            - nginx
+    - Postgres Server
 
 Configure AWS environment and resources in an automated way.
 The solution should produce a working environment containing publicly accessible load
